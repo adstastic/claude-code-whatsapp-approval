@@ -1,0 +1,17 @@
+[project]
+name = "claude-code-approval"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "fastapi>=0.115.12",
+    "fastmcp>=2.5.2",
+    "mcp>=1.9.2",
+    "modal>=1.0.2",
+    "python-multipart>=0.0.20",
+    "sqlmodel>=0.0.24",
+    "twilio>=9.6.2",
+    "uvicorn>=0.34.2",
+]

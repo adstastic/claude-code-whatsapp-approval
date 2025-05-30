@@ -1,0 +1,23 @@
+{
+  "friendly_name": "approval_request_buttons",
+  "language": "en",
+  "variables": {
+    "1": "request_description",
+    "2": "request_id"
+  },
+  "types": {
+    "twilio/quick-reply": {
+      "body": "🔔 *Approval Request*\n\n{{1}}\n\n*Request ID:* {{2}}\n\n⏱️ Expires in 5 minutes",
+      "actions": [
+        {
+          "title": "✅ Approve",
+          "id": "approve_{{2}}"
+        },
+        {
+          "title": "❌ Deny",
+          "id": "deny_{{2}}"
+        }
+      ]
+    }
+  }
+}
